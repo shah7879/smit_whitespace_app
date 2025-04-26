@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+button:hover{
+    cursor: pointer;
+}
+
+/* navbar */
+.header{
+    width: auto;
+    height: 100px;
+    background-color: rgb(10, 64, 134);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo h1{
+    font-family: 'Inter';
+    font-size: 30px;
+    color: white;
+}
+.nav{
+    width: 67%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.navlinks{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    color: white;
+}
+.btns{
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    align-items: center;
+    margin-right: 10px;
+}
+.login-btn{
+    height: 65%;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(247, 222, 142);
+    color: rgb(23, 23, 105);
+    font-weight: 600;
+}
+.free-btn{
+    height: 53px;
+    padding: 10px;
+    width: 180px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(77, 173, 252);
+}
+.font-btn{
+    font-size: 16px;
+}
+/* herosection */
+.herosection{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(10, 64, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-text{
+    width: 43%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+.left-text h1{
+    font-size: 55px;
+    color: white;
+}
+.left-text p{
+    color: white;
+}
+.right-image{
+    width: 40%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.project{
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.work{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.extension{
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(10, 64, 134);
+}
+.customise{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* plan section */
+.plan{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.heading-plan{
+    height: 120px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.heading-plan h1{
+    font-size: 50px;
+}
+.plans{
+    height: 650px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plan1{
+    height: 80%;
+    width: 30%;
+    border: 1px solid rgb(247, 222, 142);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    gap: 14px;
+    justify-content: center;
+}
+.plan1 h1{
+    font-size: 40px;
+}
+.plan1 ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.plan1 ul li{
+    font-family: 'Inter';
+    font-size: 15px;
+    display: flex;
+    gap: 10px;
+}
+.plan1 button{
+    border:1px solid rgb(247, 222, 142);
+    border-radius: 7px;
+    background-color: transparent;
+    width: 40%;
+    height: 50px;
+}
+
+.plan2{
+    height: 100%;
+    background-color: rgb(10, 64, 134);
+    width: 30%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 14px;
+    justify-content: center;
+}
+.plan2 p{
+    color: white;
+}
+.plan2 h2{
+    color: white;
+}
+.plan2 h1{
+    font-size: 40px;
+    color: rgb(247, 222, 142);
+}
+.plan2 ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+.plan2 i{
+    color: rgb(247, 222, 142);
+}
+.plan2 ul li{
+    font-family: 'Inter';
+    font-size: 15px;
+    display: flex;
+    gap: 10px;
+}
+.plan2 button{
+    background-color: rgb(77, 173, 252);
+    border-radius: 7px;
+    border: none;
+    width: 40%;
+    height: 50px;
+    color: white;
+}
+
+/* work everywhere */
+.everywhere{
+    height: 500px;
+    background-color: rgb(10, 64, 134);
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.every-text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.every-text h1{
+    font-size: 50px;
+    color: white;
+}
+.every-text p{
+    color: white;
+    font-size: 14px;
+}
+.every-text button{
+    background-color: rgb(77, 173, 252);
+    border-radius: 7px;
+    border: none;
+    width: 20%;
+    height: 50px;
+    color: white;
+}
+.everywhere img{
+    position: absolute;
+    width: 300px;
+    right: 30px;
+}
+
+/* data section */
+.data{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sponsor section */
+.sponsor{
+    height: 350px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.spon-heading{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+.spon-heading h1{
+    font-size: 50px;
+}
+.sponsors{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* favourite section */
+
+.favourite{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 64, 134);
+}
+
+/* client section */
+
+.client{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.client-heading{
+    width: 60%;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+}
+.client-heading h1{
+    font-size: 55px;
+}
+.clients{
+    width: 85%;
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+.client1{
+    width: 30%;
+    height: 100%;
+    box-shadow: 0px 4px 8px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.client1 .upper{
+    height: 50%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+    justify-content: space-around;
+}
+.client1 .lower{
+    height: 40%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+.client2{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(77, 173, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.client2 .upper{
+    height: 50%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+    justify-content: space-around;
+    color: white;
+}
+.client2 .lower{
+    height: 40%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+/* try whitepace section */
+
+.try{
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 64, 134);
+}
+.inner-try{
+    height: 550px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    justify-content: space-around;
+}
+.inner-try h1{
+    color: white;
+    font-size: 60px;
+}
+.try-images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    gap: 30px;
+}
+/* footer */
+
+.footer{
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(10, 64, 134);
+    gap: 20px;
+}
+.div1{
+    width: 25%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.div2{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.inner-footer{
+    width: 90%;
+    gap: 20px;
+    height: 70%;
+    color: white;
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+.lower-footer{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-lower{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+.social{
+    width: 20%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    justify-content: space-between;
+}
